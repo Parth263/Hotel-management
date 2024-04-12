@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Listings />} />
-        // Define other routes as needed
+        // No need for additional routes if there are no other pages
       </Routes>
     </BrowserRouter>
   );
