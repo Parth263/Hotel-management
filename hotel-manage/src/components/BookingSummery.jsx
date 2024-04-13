@@ -1,5 +1,4 @@
 function BookingSummary({ selectedRooms }) {
-    // Ensure selectedRooms is an array
     const isRoomsArray = Array.isArray(selectedRooms);
   
     return (
@@ -8,7 +7,7 @@ function BookingSummary({ selectedRooms }) {
         {isRoomsArray && selectedRooms.length > 0 ? (
           <ul>
             {selectedRooms.map((room, index) => (
-              <li key={room.id || index} className="mb-2"> {/* Use a room ID if available */}
+              <li key={room.id || index} className="mb-2"> 
                 <p>Room: {room.title}</p>
                 <p>Rate: {room.currency} {room.rate}</p>
               </li>

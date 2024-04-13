@@ -4,7 +4,7 @@ import { FaBed, FaBath, FaCalendarCheck } from 'react-icons/fa';
 function HotelListing({ imageUrl, title, capacity, rate, currency, availableDates, onSelectRoom }) {
     const handleBooking = () => {
         const roomDetails = {  title, capacity, rate, currency, availableDates };
-        onSelectRoom(roomDetails); // Make sure onSelectRoom is correctly spelled and passed as a prop
+        onSelectRoom(roomDetails); 
     };
 
     return (
