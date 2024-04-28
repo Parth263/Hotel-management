@@ -4,12 +4,12 @@ import DatePickerComp from "./DatePickerComp";
 import { MdLocalOffer } from "react-icons/md";
 import { FaCalendar } from "react-icons/fa";
 import { useState } from "react";
-import { FaHome } from 'react-icons/fa'; // Home
-import { FaInfoCircle } from 'react-icons/fa'; // Hotel Info
-import { FaSignInAlt } from 'react-icons/fa'; // Login
-import { FaPhone } from 'react-icons/fa'; // Contact
-import { FaMapMarkerAlt } from 'react-icons/fa'; // Map
-import { FaCalendarTimes } from 'react-icons/fa'; // Cancel Bookings
+import { FaHome } from "react-icons/fa"; // Home
+import { FaInfoCircle } from "react-icons/fa"; // Hotel Info
+import { FaSignInAlt } from "react-icons/fa"; // Login
+import { FaPhone } from "react-icons/fa"; // Contact
+import { FaMapMarkerAlt } from "react-icons/fa"; // Map
+import { FaCalendarTimes } from "react-icons/fa"; // Cancel Bookings
 
 function Navbar() {
   const [checkInDate, setCheckInDate] = useState(null);
@@ -21,7 +21,6 @@ function Navbar() {
         <div className="text-lg">Blue Jay Hostel</div>
         <div className="space-x-4 text-sm">
           <Link to="/" className="hover:bg-gray-700 px-3 py-2 rounded">
-            
             Home
           </Link>
           <Link to="/about" className="hover:bg-gray-700 px-3 py-2 rounded">
